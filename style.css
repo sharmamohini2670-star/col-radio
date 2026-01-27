@@ -326,7 +326,7 @@ body {
 .pink-shape {
     position: absolute;
     top: 0;
-    left: 8%;
+    left: 20%;
     width: 80%;
     height: 100%;
     background: var(--bg-pink);
@@ -2482,3 +2482,4 @@ body {
 .maincontent{
  flex: 1 0 auto;
 }
+
