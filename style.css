@@ -646,6 +646,7 @@ body {
     background-color: var(--col-red);
     border-radius: 50%;
     margin-right: 10px;
+    animation: blink 1.5s infinite;
 }
 
 .about-content-container {
@@ -2482,4 +2483,5 @@ body {
 .maincontent{
  flex: 1 0 auto;
 }
+
 
