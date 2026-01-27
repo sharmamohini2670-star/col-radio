@@ -12,3 +12,35 @@ menuBtn.addEventListener('click', () => {
     ? 'translateY(-7px) rotate(-45deg)' 
     : 'none';
 });
+
+//ListenerPoll Functionality
+
+document.addEventListener('DOMContentLoaded', function() {
+    const pollForm = document.getElementById('listenerPoll');
+    const options = document.querySelectorAll('.listener-poll-option');
+    const successMsg = document.getElementById('pollSuccess');
+
+    options.forEach(option => {
+        option.addEventListener('click', function() {
+            options.forEach(opt => opt.classList.remove('listener-selected'));
+            this.classList.add('listener-selected');
+            const radio = this.querySelector('input[type="radio"]');
+            radio.checked = true;
+        });
+    });
+    pollForm.addEventListener('submit', function(e) {
+        e.preventDefault(); 
+        successMsg.style.display = 'block';
+        const btn = pollForm.querySelector('.listener-submit-btn');
+        btn.disabled = true;
+        btn.style.opacity = "0.5";
+        btn.style.cursor = "not-allowed";
+
+        setTimeout(() => {
+            successMsg.style.display = 'none';
+            btn.disabled = false;
+            btn.style.opacity = "1";
+            btn.style.cursor = "pointer";
+        }, 3000);
+    });
+});
