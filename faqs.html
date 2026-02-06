@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>COL Radio </title>
+ <link rel="icon" type="image/x-icon" href="assets/images/dulogo.jpg">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="assets/header.css">
+<link rel="stylesheet" href="assets/footer.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<header>
+    <section>
+        <div class="branding-left">
+            <img src="assets/images/colradiologo.png" alt="COL Radio">
+            <div>
+                <span>An</span>
+                <h1>Open Learning Development Centre</h1>
+                <span>Initiative</span>
+            </div>
+        </div>
+        <div class="branding-right">
+            <img src="assets/images/mainlogo.png" alt="University of Delhi">
+        </div>
+    </section>
+
+    <hr>
+
+   <section>
+    <div class="track-info">
+        <img src="assets/images/oldcrepresent.png" alt="Campus">
+        <p>OLDC Presents | COL Radio | <br/> Voices of the Campus</p>
+    </div>
+    
+    <div class="player-controls">
+        <button type="button" class="ctrl-btn"><i class="fas fa-backward-step"></i></button>
+        <button type="button" class="play-pause-btn"><i class="fas fa-play"></i></button>
+        <button type="button" class="ctrl-btn"><i class="fas fa-forward-step"></i></button>
+    </div>
+
+    <div class="seek-bar">
+        <input type="range" min="0" max="100" value="50">
+    </div>
+
+    <div class="playback-settings">
+        <span class="speed-badge">1X</span>
+        <div class="volume-box">
+          <button type="button" class="ctrl-btn" id="vol-btn">
+  <i id="vol-icon" class="fas fa-volume-up"></i>
+</button>
+           
+            <input type="range" min="0" max="100" value="80">
+        </div>
+    </div>
+</section>
+
+    <nav>
+        <ul>
+            <li><a href="index.html" class="highlightul">Home</a></li>
+            <li><a href="podcast.html">Programmes</a></li>
+            <li><a href="liveradio.html">Live Radio</a></li>
+            <li><a href="bulletin.html">Bulletin</a></li>
+            <li><a href="help.html">Help</a></li>
+            <li><a href="faqs.html">FAQs</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="privacy-hero-banner">
+    <div class="privacy-hero-container">
+        <div class="privacy-banner-content">
+            <h1 class="privacy-main-title">Frequently Asked Questions </h1>
+  <h1 class="privacy-main-title2">(FAQs)</h1>
+        </div>
+    </div>
+</section>
+
+
+<div class="faq-container">
+
+    <details class="faq-item" open>
+        <summary>
+            What is COL Radio?
+            <div class="toggle-icon"></div>
+        </summary>
+        <div class="content">
+            COL Radio is a digital audio and video platform by the Open Learning Development Centre (OLDC), Campus of Open Learning, University of Delhi. It provides educational and informative programmes for students and learners.
+        </div>
+    </details>
+
+    <details class="faq-item">
+        <summary>
+            Who can access COL Radio content?
+            <div class="toggle-icon"></div>
+        </summary>
+        <div class="content">
+            COL Radio content is primarily designed for students of the University of Delhi, but it is generally accessible to any lifelong learners interested in educational content.
+        </div>
+    </details>
+
+    <details class="faq-item">
+        <summary>
+            What type of content is available on COL Radio?
+            <div class="toggle-icon"></div>
+        </summary>
+        <div class="content">
+            We provide a variety of content including academic lectures, career counseling sessions, interviews with experts, and student-led discussions.
+        </div>
+    </details>
+
+    <details class="faq-item">
+        <summary>
+            Is COL Radio content aligned with academic courses?
+            <div class="toggle-icon"></div>
+        </summary>
+        <div class="content">
+            Yes, many of our programmes are specifically designed to supplement the curriculum of various undergraduate and postgraduate courses offered by the University.
+        </div>
+    </details>
+
+    <details class="faq-item">
+        <summary>
+            Where can I listen to or watch COL Radio programmes?
+            <div class="toggle-icon"></div>
+        </summary>
+        <div class="content">
+            Programmes can be accessed directly through our official website portal and our dedicated YouTube channel.
+        </div>
+    </details>
+
+    <details class="faq-item">
+        <summary>
+            Do I need to register to access content?
+            <div class="toggle-icon"></div>
+        </summary>
+        <div class="content">
+            Currently, most of our public content is available without registration to ensure easy access for all students.
+        </div>
+    </details>
+
+    <details class="faq-item">
+        <summary>
+            Are the podcasts available in both audio and video formats?
+            <div class="toggle-icon"></div>
+        </summary>
+        <div class="content">
+            Yes, we offer a hybrid experience where you can choose to watch the video session or listen to the audio-only version for data saving.
+        </div>
+    </details>
+
+    <details class="faq-item">
+        <summary>
+            Can students participate in COL Radio programmes?
+            <div class="toggle-icon"></div>
+        </summary>
+        <div class="content">
+            Absolutely! We encourage student participation. You can apply to be a host or a guest speaker through our student outreach forms.
+        </div>
+    </details>
+
+    <details class="faq-item">
+        <summary>
+            How often is new content added?
+            <div class="toggle-icon"></div>
+        </summary>
+        <div class="content">
+            We update our platform weekly with new episodes, interviews, and educational series.
+        </div>
+    </details>
+
+    <details class="faq-item">
+        <summary>
+            Are the views expressed in podcasts official opinions?
+            <div class="toggle-icon"></div>
+        </summary>
+        <div class="content">
+            The views expressed by guests and speakers are their personal opinions and do not necessarily reflect the official policy of the University of Delhi.
+        </div>
+    </details>
+
+    <details class="faq-item">
+        <summary>
+            Can I suggest topics or provide feedback?
+            <div class="toggle-icon"></div>
+        </summary>
+        <div class="content">
+Yes. Learners can share feedback and topic suggestions through the Contact Us page.
+        </div>
+    </details>
+
+    <details class="faq-item">
+        <summary>
+            Is COL Radio free to use?
+            <div class="toggle-icon"></div>
+        </summary>
+        <div class="content">
+           Yes. COL Radio is an educational initiative and its content is available free of cost.
+        </div>
+    </details>
+
+</div>
+
+<footer class="main-footer">
+  <div class="footer-container">
+    <div class="footer-col">
+      <ul class="footer-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="aboutus.html">About</a></li>
+        <li><a href="#">Foreign Language Courses</a></li>
+        <li><a href="#">Job Ready Skill Courses</a></li>
+        <li><a href="#">Internship</a></li>
+        <li><a href="#">Research & Development</a></li>
+        <li><a href="#">Facilities</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Address:</h4>
+      <p>OLDC Second Floor, ARC Building, University of Delhi, <br/> Opposite S.G.T.B. Khalsa College, Delhi, 110007</p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Phone:</h4>
+      <p>011-27008300</p>
+      <h4>Email:</h4>
+      <p>skillcentre.cisbc@col.du.ac.in</p>
+      
+      <div class="social-icons">
+        <a href="https://www.facebook.com/people/Open-Learning-Development-Centre/pfbid02yLHmhMRkaFi5zL6w3imgNr9rTB48HLoHQw27AXkWRGjYG26f3tY3gC44CKJ9j2Mwl/" target="_blank" rel="noopener noreferrer" ><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/col.radio" target="_blank" rel="noopener noreferrer" ><i class="fab fa-instagram"></i></a>
+        <a href="https://www.youtube.com/@cisbc_oldc" target="_blank" rel="noopener noreferrer" ><i class="fab fa-youtube"></i></a>
+        <a href="https://x.com/@oldc_dusol" target="_blank" rel="noopener noreferrer" ><i class="fab fa-x-twitter"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <hr class="footer-divider">
+
+  <div class="footer-bottom">
+    <p>&copy; COL, All Rights Reserved. | Designed by OLDC</p>
+  </div>
+</footer>
+
+<script>
+  const volIcon = document.getElementById('vol-icon');
+  const volBtn = document.getElementById('vol-btn');
+  volBtn.addEventListener('click', () => {
+    if (volIcon.classList.contains('fa-volume-up')) {
+    volIcon.classList.remove('fa-volume-up');
+    volIcon.classList.add('fa-volume-mute');
+    } else{ 
+      volIcon.classList.remove('fa-volume-mute');
+    volIcon.classList.add('fa-volume-up');
+    }
+  });
+
+  
+</script>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const btn = document.querySelector('.play-pause-btn');
+    const icon = btn.querySelector('i');
+    btn.addEventListener('click', function() {
+        if (icon.classList.contains('fa-play')) {
+            icon.classList.remove('fa-play');
+            icon.classList.add('fa-pause');
+        } else {
+            icon.classList.remove('fa-pause');
+            icon.classList.add('fa-play');
+        }
+    });
+    btn.addEventListener('dblclick', function(e) {
+        e.preventDefault(); 
+        icon.classList.remove('fa-pause');
+        icon.classList.add('fa-play');
+    });
+});
+</script>
+<script>
+    const seekBar = document.querySelector('.seek-bar input[type="range"]');
+    function updateProgress() {
+        const value = seekBar.value;
+        const min = seekBar.min || 0;
+        const max = seekBar.max || 100;
+        const percent = ((value - min) / (max - min)) * 100;
+        seekBar.style.backgroundSize = percent + '% 100%';
+    }
+
+    seekBar.addEventListener('input', updateProgress);
+    updateProgress();
+</script>
+<script>
+    function updateSliderBackground(el) {
+        const min = el.min || 0;
+        const max = el.max || 100;
+        const val = el.value;
+        const percentage = (val - min) / (max - min) * 100;
+        el.style.backgroundSize = percentage + '% 100%';
+    }
+    const allSliders = document.querySelectorAll('input[type="range"]');
+    allSliders.forEach(slider => {
+        slider.addEventListener('input', () => updateSliderBackground(slider));
+        updateSliderBackground(slider);
+    });
+</script>
+<script src="assets/script.js"></script>
+</body>
+
+</html>
