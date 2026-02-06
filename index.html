@@ -2,435 +2,346 @@
 <html>
 <head>
  <title>COL Radio </title>
- <link rel="icon" type="image/x-icon" href="images/dulogo.jpg">
+ <link rel="icon" type="image/x-icon" href="assets/images/dulogo.jpg">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="assets/header.css">
+<link rel="stylesheet" href="assets/footer.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-<header class="main-header">
-<div class="top-bar">
-  <div class="topnavbarcontent">
-    <p>
-      <span class="text-red">Open Learning Development Centre</span> presents COL Radio • 
-      <span class="text-red">Open Learning Development Centre</span> presents COL Radio • 
-      <span class="text-red">Open Learning Development Centre</span> presents COL Radio •
-      <span class="text-red">Open Learning Development Centre</span> presents COL Radio
-    </p>
-    <p>
-      <span class="text-red">Open Learning Development Centre</span> presents COL Radio • 
-      <span class="text-red">Open Learning Development Centre</span> presents COL Radio • 
-      <span class="text-red">Open Learning Development Centre</span> presents COL Radio •
-      <span class="text-red">Open Learning Development Centre</span> presents COL Radio
-    </p>
-  </div>
-</div>
+<header>
+    <section>
+        <div class="branding-left">
+            <img src="assets/images/colradiologo.png" alt="COL Radio">
+            <div>
+                <span>An</span>
+                <h1>Open Learning Development Centre</h1>
+                <span>Initiative</span>
+            </div>
+        </div>
+        <div class="branding-right">
+            <img src="assets/images/mainlogo.png" alt="University of Delhi">
+        </div>
+    </section>
 
-  <div class="nav-wrapper">
-    <div class="logo-container">
-      <img src="images/colradiologo.png" alt="COL Radio" class="logo-img">
-    </div>
-  <div class="university-logomobile">
-        <img src="images/dulogo.jpg" alt="DU">
-    </div>
- 
+    <hr>
 
-    <nav class="navigation" id="nav-menu">
-      <ul>
-        <li><a href="#" class="active">Home</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Bulletin</a></li>
-        <li><a href="#">Listen LIVE</a></li>
-        <li><a href="#">Shows & Podcasts</a></li>
-      </ul>
+   <section>
+    <div class="track-info">
+        <img src="assets/images/oldcrepresent.png" alt="Campus">
+        <p>OLDC Presents | COL Radio | <br/> Voices of the Campus</p>
+    </div>
     
-     
+    <div class="player-controls">
+        <button type="button" class="ctrl-btn"><i class="fas fa-backward-step"></i></button>
+        <button type="button" class="play-pause-btn"><i class="fas fa-play"></i></button>
+        <button type="button" class="ctrl-btn"><i class="fas fa-forward-step"></i></button>
+    </div>
+
+    <div class="seek-bar">
+        <input type="range" min="0" max="100" value="50">
+    </div>
+
+    <div class="playback-settings" id="speed-toggle" >
+        <span class="speed-badge" id="speed-text">1X</span>
+        <div class="volume-box">
+          <button type="button" class="ctrl-btn" id="vol-btn">
+  <i id="vol-icon" class="fas fa-volume-up"></i>
+</button>
+           
+            <input type="range" min="0" max="100" value="80">
+        </div>
+    </div>
+</section>
+
+    <nav>
+        <ul>
+            <li><a href="index.html" class="highlightul">Home</a></li>
+            <li><a href="podcast.html">Programmes</a></li>
+            <li><a href="liveradio.html">Live Radio</a></li>
+            <li><a href="bulletin.html">Bulletin</a></li>
+            <li><a href="help.html">Help</a></li>
+            <li><a href="faqs.html">FAQs</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
     </nav>
-       <div class="university-logo">
-        <img src="images/mainlogo.png" alt="DU">
-    </div>
-   
-       <div class="menu-icon" id="mobile-menu-btn">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-  </div>
 </header>
 
 <section class="hero-banner">
     <div class="hero-wrapper">
         <div class="banner-content">
+            
             <h1 class="main-titlecol">COL Radio</h1>
             <p class="subtitlecol">AN INITIATIVE BY <strong>OPEN LEARNING DEVELOPMENT CENTRE, </strong> UNIVERSITY OF DELHI.</p>
-            
+            <div class="featured-red-icon">*</div>
             <div class="descriptioncol">
-                <p><strong>COL Radio offers students and learners easy access to <span class="text-red">academic and non-academic audio and video content</span></strong> that supports learning, awareness, and creative expression beyond traditional study materials.</p>
+                <p><strong>COL Radio offers students and learners access to <span class="text-red">academic and non-academic audio and video content</span></strong> that supports and supplements learning, awareness, and creative expression beyond traditional settings and study materials thereby enhancing and enriching the learning experiences.</p>
             </div>
 
-            <div class="cta-group">
-                <div class="arrow-circle">
-                <span class="mainarrowheader" > ↗</span>   
-
-                </div>
-                <a href="index.html" class="btn-visit">Visit COL Radio</a>
-            </div>
         </div>
 
         <div class="banner-visual">
             <div class="pink-shape"></div>
-            <img src="images/colradiomainpage.png" alt="Microphone" class="hero-image">
+            <img src="assets/images/colradiomainpage.png" alt="Microphone" class="hero-image">
         </div>
         <div class="banner-visualmobile">
-            <img src="images/herosectionmobile.png" alt="Microphone with Pink" class="hero-imagemobile">
+            <img src="assets/images/herosectionmobile.png" alt="Microphone with Pink" class="hero-imagemobile">
         </div>
     </div>
 </section>
+<section class="info-section-visionmission">
 
-<section class="audience-section">
-  <div class="container">
-    <div class="header-content">
-      <h1>Who COL Radio Is For</h1>
-      <p>COL Radio is designed to serve a diverse audience by offering audio-based educational content that supports learning, knowledge sharing, and community engagement beyond conventional academic settings.</p>
-    </div>
+    <div class="container-visionmission">
 
-    <div class="cards-wrapper">
-      <div class="audience-card">
-        <div class="number-circle">01</div>
-        <h3>Students & Learners</h3>
-        <div class="divider"></div>
-        <p>Academic enrichment, flexible learning, and student-led content</p>
-      </div>
+        <div class="card-visionmission">
 
-      <div class="audience-card">
-        <div class="number-circle">02</div>
-        <h3>Faculty & Academics</h3>
-        <div class="divider"></div>
-        <p>Platform for knowledge sharing, discussions, and outreach</p>
-      </div>
+            <div class="card-header-visionmission">
 
-      <div class="audience-card">
-        <div class="number-circle">03</div>
-        <h3>Public & Community</h3>
-        <div class="divider"></div>
-        <p>Educational conversations, awareness content, and expert insights</p>
-      </div>
+                <span class="bg-number-visionmission">01</span>
 
-      <div class="arrow-box">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <line x1="7" y1="7" x2="17" y2="17"></line>
-          <polyline points="17 7 17 17 7 17"></polyline>
-        </svg>
-      </div>
-    </div>
-  </div>
-</section>
+                <h2 class="main-tittlevisionmission">Our <br>Vision</h2>
 
-<section class="about-col-radio-section">
-   
+                <div class="underline red"></div>
 
-    <div class="about-content-container">
-        <div class="about-video-area">
-            <div class="about-video-overlay">
-                <div class="about-central-play-button">
-                    <div class="about-youtube-rect" onclick="window.open('https://www.youtube.com/watch?v=euz1x-cLfbE', '_blank')">▶</div>
-                </div>
             </div>
-            <img src="images/about-directormaam.png" alt="About OLDC and COL Radio">
-        </div>
 
-        <div class="about-text-area">
-             <div class="about-header-tag">
-        <span class="about-dot"></span> <span style="text-decoration: underline;">UNDERSTANDING <strong> OLDC & COL RADIO</strong> </span>
-    </div>
-            <div class="about-text-content">
-                <h1>About OLDC & COL Radio</h1>
-                <p>
-                    This video introduces the Open Learning Development Centre (OLDC) 
-                    and its initiative, COL Radio, highlighting its vision, content, 
-                    and role in supporting learning and student engagement through digital media.
-                </p>
-                
-                <a href="https://www.youtube.com/watch?v=euz1x-cLfbE" target="_blank" class="about-listen-link">
-                    <span class="about-play-icon">▶</span> <span style="text-decoration: underline;"> Watch the Video on YouTube </span>
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
+            <p class="content-visionmission">
 
-<section class="podcast-section">
-    <div class="vertical-line"></div>
+                To become a trusted digital radio platform that enhances learning, encourages dialogue, and expands access to quality education through engaging and inclusive audio content.
 
-    <div class="main-container">
-        <header class="header-container">
-            <h2 class="main-titlebrowse">Browse by<br>Podcast Category</h2>
-            <p class="sub-text">
-                Discover a wide range of audio programmes curated for learners, students, and the larger academic community.
             </p>
-        </header>
 
-        <div class="visual-wrapper">
-            <div class="academic-bg-box">
-                <div class="box-content">
-                    <h3 class="category-name">Academic</h3>
-                    <div class="nav-controls">
-                        <button class="btn btn-gray">❮</button>
-                        <button class="btn btn-red">❯</button>
-                    </div>
-                </div>
+            <div class="image-box">
+
+                <img src="assets/images/vision.png" alt="Students in a computer lab">
+
             </div>
 
-            <div class="image-gallery">
-                <div class="img-card">
-                    <img src="images/academic.png" alt="Academic" class="dynamic-img">
-                </div>
-                <div class="img-card">
-                    <img src="images/newsanchor.png" alt="News" class="dynamic-img">
+        </div>
+
+
+
+        <div class="card-visionmission">
+
+            <div class="card-header-visionmission">
+
+                <span class="bg-number-visionmission">02</span>
+
+                <h2 class="main-tittlevisionmission">Our <br>Mission</h2>
+
+                <div class="underline yellow"></div>
+
+            </div>
+
+            <p class="content-visionmission">
+
+                To support academic learning through reliable and engaging audio content aligned with open and distance education, while encouraging inclusive and learner-centric student participation.
+
+            </p>
+
+            <div class="image-box">
+
+                <img src="assets/images/mission.png" alt="Interview taking place">
+
+            </div>
+
+        </div>
+
+
+
+        <div class="card-visionmission">
+
+            <div class="card-header-visionmission">
+
+                <span class="bg-number-visionmission">03</span>
+
+                <h2 class="main-tittlevisionmission">Our <br>Goal</h2>
+
+                <div class="underline red"></div>
+
+            </div>
+
+            <p class="content-visionmission">
+
+                To expand access to quality educational content by leveraging digital media platforms for wider reach and meaningful impact.
+
+            </p>
+
+            <div class="image-box">
+
+                <img src="assets/images/goal.png" alt="Students studying together">
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section> 
+<section class="administration-podcast-section">
+    <div class="administration-header-container">
+        <h2 class="administration-section-title">Audio<br><span>Podcasts</span></h2>
+        <a href="#" class="administration-explore-link">Explore on Youtube &rarr;</a>
+    </div>
+
+    <div class="administration-podcast-grid">
+        <div class="administration-podcast-card">
+            <div class="administration-thumbnail">
+                <div class="administration-col-brand">COL<br>RADIO</div>
+                <div class="administration-play-btn">▶</div>
+            </div>
+            <div class="administration-card-content">
+                <h3 class="administration-card-heading">26 January: A Day That Defines India</h3>
+                <p class="administration-category">AUDIO</p>
+                <div class="administration-card-footer">
+                    Jan 26, 2026 | <span class="administration-lang">English</span>
                 </div>
             </div>
         </div>
 
-        <div class="footer-area">
-            <div class="play-btn"></div>
-            <a href="https://www.youtube.com/@cisbc_oldc" target="_blank" rel="noopener noreferrer" class="yt-link">Visit COL Radio on YouTube</a>
-        </div>
-    </div>
-</section>
-
-<section class="col-container">
-    <header class="topic-explorer">
-        <h2 class="section-title">Explore by Topic</h2>
-        <div class="pill-group">
-            <div class="pill-row">
-                <a href="#" class="pill active">Student Life</a>
-                <a href="#" class="pill">Career & Exams</a>
-                <a href="#" class="pill">Faculty Talks</a>
-                <a href="#" class="pill">Policy & Education</a>
-            </div>
-            <div class="pill-row">
-                <a href="#" class="pill">Culture</a>
-                <a href="#" class="pill">Announcements</a>
-                <a href="#" class="pill">Mental Well-being</a>
-            </div>
-        </div>
-    </header>
-
-    <div class="radio-section">
-        <div class="radio-grid">
-            
-            <div class="radio-info">
-                <span class="label">LATEST AUDIO HIGHLIGHTS</span>
-                <div class="red-accent-line"></div>
-                <h1 class="radio-title">Recent from<br>COL Radio</h1>
-                <p class="radio-desc">
-                    A selection of recently released podcasts featuring academic discussions, 
-                    expert perspectives, and student voices from the COL Radio platform.
-                </p>
-                <div class="link-wrapper">
-                    <a href="https://www.youtube.com/@cisbc_oldc" target="_blank" rel="noopener noreferrer" class="yt-linkyoutube">See more on Youtube Channel &rarr;</a>
-                </div>
-            </div>
-
-            <div class="vertical-divider"></div>
-
-            <div class="slider-zone">
-                <div class="black-bg-accent"></div>
-                <div class="card-carousel">
-                    <article class="podcast-card">
-                        <div class="thumb">
-                            <img src="images/directorcol.png" alt="Director Interview">
-                            <button class="play-overlay">
-                                <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-                            </button>
-                        </div>
-                        <div class="card-body">
-                            <h3>Director, COL Answers Students' Queries</h3>
-                            <span class="tag">STUDENT INTERACTION</span>
-                            <div class="meta">
-                                <span>Jan 07, 2026</span>
-                                <span><i class="icon-user"></i> Bhawana Joshi</span>
-                            </div>
-                            <button class="cta-btn">Listen on COL Radio</button>
-                            
-                        </div>
-                    </article>
-
-                    <article class="podcast-card">
-                        <div class="thumb">
-                            <img src="images/directorcol.png" alt="Bulletin">
-                            <button class="play-overlay">
-                                <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-                            </button>
-                        </div>
-                        <div class="card-body">
-                            <h3>Weekly Bulletin - 59 English</h3>
-                            <span class="tag">COL BULLETIN</span>
-                            <div class="meta">
-                                <span>Dec 04, 2025</span>
-                                <span><i class="icon-user"></i> Bhawana Joshi</span>
-                            </div>
-                            <button class="cta-btn">Listen on COL Radio</button>
-                        </div>
-                    </article>
-                </div>
-
-                <div class="nav-arrows">
-                    <button class="arrow-btn prev">&#10094;</button>
-                    <button class="arrow-btn next active">&#10095;</button>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="broadcast-container">
-    <div class="broadcast-layout">
-        
-        <article class="broadcast-column">
-            <h2 class="section-title">Recent Broadcasts</h2>
-            
-            <nav class="filter-tabs">
-                <button class="tab active">Last 24 Hours</button>
-                <button class="tab">Last 3 Days</button>
-                <button class="tab">Weekly</button>
-            </nav>
-
-            <div class="broadcast-list">
-                <div class="broadcast-card grey-card">
-                    <img src="images/11jan.png" alt="COL Radio" class="card-thumb">
-                    <div class="date-badge">
-                        <span class="day">11</span>
-                        <span class="month">Jan</span>
-                    </div>
-                    <div class="card-content">
-                        <h3>Celebrating Lohri | Festival of Fire, Joy & Harvest</h3>
-                        <p>Posted on 11 Jan, 2026</p>
-                    </div>
-                    <span class="status-tag">New</span>
-                    <span class="arrow-icon">→</span>
-                </div>
-
-                <div class="broadcast-card dark-card">
-                    <img src="images/newsanchor.png" alt="Weekly Bulletin" class="card-thumb">
-                    <div class="date-badge">
-                        <span class="day">10</span>
-                        <span class="month">Jan</span>
-                    </div>
-                    <div class="card-content">
-                        <h3>Weekly Bulletin - 63 (English) | 10 January 2026</h3>
-                        <p>Posted on 13 Jan, 2026</p>
-                    </div>
-                    <span class="status-tagblack">New</span>
-                    <span class="arrow-icon red-arrow">→</span>
-                </div>
-
-                <div class="broadcast-card grey-card">
-                    <img src="images/05jan.png" alt="Director COL" class="card-thumb">
-                    <div class="date-badge">
-                        <span class="day">05</span>
-                        <span class="month">Jan</span>
-                    </div>
-                    <div class="card-content">
-                        <h3>Director COL Answers Students' Queries | Official Guidance & Updates</h3>
-                        <p>Posted on 5 Jan, 2026</p>
-                    </div>
-                    <span class="status-tag">New</span>
-                    <span class="arrow-icon">→</span>
-                </div>
-            </div>
-        </article>
-
-        <article class="broadcast-column">
-            <h2 class="section-title">Upcoming Programmes</h2>
-            
-            <div class="upcoming-list">
-                <div class="upcoming-card">
-                    <div class="upcoming-date">
-                        <span class="day">24</span>
-                        <span class="month">Jan</span>
-                    </div>
-                    <div class="upcoming-content">
-                        <h3>Student Voices Live</h3>
-                        <p>A live student-led discussion sharing experiences, challenges, and perspectives from open and distance learners.</p>
-                    </div>
-                </div>
-
-                <div class="upcoming-card">
-                    <div class="upcoming-date">
-                        <span class="day">25</span>
-                        <span class="month">Jan</span>
-                    </div>
-                    <div class="upcoming-content">
-                        <h3>Academic Dialogue Series</h3>
-                        <p>A faculty interaction focusing on contemporary issues in higher education and open learning practices.</p>
-                    </div>
-                </div>
-
-                <div class="upcoming-card">
-                    <div class="upcoming-date">
-                        <span class="day">29</span>
-                        <span class="month">Jan</span>
-                    </div>
-                    <div class="upcoming-content">
-                        <h3>Career Guidance Session</h3>
-                        <p>An informative audio session offering guidance on career planning, skill development, and future opportunities.</p>
-                    </div>
-                </div>
-
-                <div class="upcoming-card">
-                    <div class="upcoming-date">
-                        <span class="day">31</span>
-                        <span class="month">Jan</span>
-                    </div>
-                    <div class="upcoming-content">
-                        <h3>Special Podcast Premiere</h3>
-                        <p>The launch of a new podcast episode featuring expert insights on emerging trends in education and learning.</p>
-                    </div>
-                </div>
-            </div>
-        </article>
-
-    </div>
-</section>
-
-<section class="col-radio-section">
-    <div class="header-tag">
-        <span class="dot"></span> LIVE FROM <strong>COL RADIO</strong>
-    </div>
-
-    <div class="content-container">
-        <div class="text-area">
-            <div class="text-content">
-                <h1>COL Bulletin</h1>
-                <p>Daily academic updates, announcements, and important information from the Campus of Open Learning.</p>
+        <div class="administration-podcast-card">
+            <div class="administration-thumbnail">
                 
-                <a href="https://www.youtube.com/@cisbc_oldc" target="_blank" rel="noopener noreferrer"  class="listen-link">
-                    <span class="play-icon">▶</span> Listen on YouTube
-                </a>
+                <div class="administration-play-btn">▶</div>
             </div>
-        </div>
-
-        <div class="video-area">
-            <div class="video-overlay">
-                <span class="live-indicator">LIVE</span>
-                <div class="central-play-button">
-                    <div class="youtube-rect" onclick="window.open('https://www.youtube.com/watch?v=euz1x-cLfbE', '_blank')">▶</div>
+            <div class="administration-card-content">
+                <h3 class="administration-card-heading">Indian Army Day | Pride of the Nation</h3>
+                <p class="administration-category">AUDIO</p>
+                <div class="administration-card-footer">
+                    Jan 15, 2026 | <span class="administration-lang">English</span>
                 </div>
             </div>
-            <img src="images/newsanchor.png" alt="Broadcaster">
+        </div>
+         <div class="administration-podcast-card">
+            <div class="administration-thumbnail">
+                
+                <div class="administration-play-btn">▶</div>
+            </div>
+            <div class="administration-card-content">
+                <h3 class="administration-card-heading">Indian Army Day | Pride of the Nation</h3>
+                <p class="administration-category">AUDIO</p>
+                <div class="administration-card-footer">
+                    Jan 15, 2026 | <span class="administration-lang">English</span>
+                </div>
+            </div>
+        </div>
+         <div class="administration-podcast-card">
+            <div class="administration-thumbnail">
+                
+                <div class="administration-play-btn">▶</div>
+            </div>
+            <div class="administration-card-content">
+                <h3 class="administration-card-heading">Indian Army Day | Pride of the Nation</h3>
+                <p class="administration-category">AUDIO</p>
+                <div class="administration-card-footer">
+                    Jan 15, 2026 | <span class="administration-lang">English</span>
+                </div>
+            </div>
+        </div>
+         <div class="administration-podcast-card">
+            <div class="administration-thumbnail">
+                
+                <div class="administration-play-btn">▶</div>
+            </div>
+            <div class="administration-card-content">
+                <h3 class="administration-card-heading">Indian Army Day | Pride of the Nation</h3>
+                <p class="administration-category">AUDIO</p>
+                <div class="administration-card-footer">
+                    Jan 15, 2026 | <span class="administration-lang">English</span>
+                </div>
+            </div>
+        </div>
+         <div class="administration-podcast-card">
+            <div class="administration-thumbnail">
+               
+                <div class="administration-play-btn">▶</div>
+            </div>
+            <div class="administration-card-content">
+                <h3 class="administration-card-heading">Indian Army Day | Pride of the Nation</h3>
+                <p class="administration-category">AUDIO</p>
+                <div class="administration-card-footer">
+                    Jan 15, 2026 | <span class="administration-lang">English</span>
+                </div>
+            </div>
+        </div>
+         <div class="administration-podcast-card">
+            <div class="administration-thumbnail">
+                
+                <div class="administration-play-btn">▶</div>
+            </div>
+            <div class="administration-card-content">
+                <h3 class="administration-card-heading">Indian Army Day | Pride of the Nation</h3>
+                <p class="administration-category">AUDIO</p>
+                <div class="administration-card-footer">
+                    Jan 15, 2026 | <span class="administration-lang">English</span>
+                </div>
+            </div>
+        </div>
+         <div class="administration-podcast-card">
+            <div class="administration-thumbnail">
+                
+                <div class="administration-play-btn">▶</div>
+            </div>
+            <div class="administration-card-content">
+                <h3 class="administration-card-heading">Indian Army Day | Pride of the Nation</h3>
+                <p class="administration-category">AUDIO</p>
+                <div class="administration-card-footer">
+                    Jan 15, 2026 | <span class="administration-lang">English</span>
+                </div>
+            </div>
+        </div>
+         <div class="administration-podcast-card">
+            <div class="administration-thumbnail">
+                
+                <div class="administration-play-btn">▶</div>
+            </div>
+            <div class="administration-card-content">
+                <h3 class="administration-card-heading">Indian Army Day | Pride of the Nation</h3>
+                <p class="administration-category">AUDIO</p>
+                <div class="administration-card-footer">
+                    Jan 15, 2026 | <span class="administration-lang">English</span>
+                </div>
+            </div>
+        </div>
+         <div class="administration-podcast-card">
+            <div class="administration-thumbnail">
+               
+                <div class="administration-play-btn">▶</div>
+            </div>
+            <div class="administration-card-content">
+                <h3 class="administration-card-heading">Indian Army Day | Pride of the Nation</h3>
+                <p class="administration-category">AUDIO</p>
+                <div class="administration-card-footer">
+                    Jan 15, 2026 | <span class="administration-lang">English</span>
+                </div>
+            </div>
         </div>
     </div>
+
+    <div class="administration-nav-controls">
+        <button class="administration-nav-btn administration-prev">&lsaquo;</button>
+        <button class="administration-nav-btn administration-next administration-active">&rsaquo;</button>
+    </div>
 </section>
+
+
+
+
+
+
+
+
+
 
 <section class="featured-container">
     <header class="featured-header">
         <div class="featured-header-left">
             <div class="featured-red-icon">*</div>
-            <p>Watch some of the most viewed and widely appreciated videos from COL Radio.</p>
+            <p>Some of the most viewed and widely appreciated videos from COL Radio.</p>
         </div>
         <div class="featured-header-center">
             <h1>Featured <br> Videos</h1>
@@ -443,7 +354,7 @@
     <div class="featured-video-grid">
         <article class="featured-video-card">
             <div class="featured-thumb">
-                <img src="images/section2img1.png" alt="Video 1">
+                <img src="assets/images/section2img1.png" alt="Video 1">
                 <div class="featured-play-overlay"><span class="featuredplay-icon">▶</span></div>
             </div>
             <div class="featured-card-body">
@@ -459,7 +370,7 @@
 
         <article class="featured-video-card">
             <div class="featured-thumb">
-                <img src="images/section2img2.png" alt="Video 2">
+                <img src="assets/images/section2img2.png" alt="Video 2">
                 <div class="featured-play-overlay"><span class="featuredplay-icon">▶</span></div>
             </div>
             <div class="featured-card-body">
@@ -475,7 +386,7 @@
 
         <article class="featured-video-card">
             <div class="featured-thumb">
-                <img src="images/section2img3.png" alt="Video 3">
+                <img src="assets/images/section2img3.png" alt="Video 3">
                 <div class="featured-play-overlay"><span class="featuredplay-icon">▶</span></div>
             </div>
             <div class="featured-card-body">
@@ -490,7 +401,7 @@
         </article>
                 <article class="featured-video-card">
             <div class="featured-thumb">
-                <img src="images/section2img4.png" alt="Video 3">
+                <img src="assets/images/section2img4.png" alt="Video 3">
                 <div class="featured-play-overlay"><span class="featuredplay-icon">▶</span></div>
             </div>
             <div class="featured-card-body">
@@ -516,55 +427,48 @@
     </footer>
 </section>
 
-<section class="listener-poll-container">
-    <div class="listener-poll-content">
-        <div class="listener-radio-wrapper">
-            <img src="images/radio.png" alt="Radio with musical notes" class="listener-radio-img">
-        </div>
-
-        <div class="listener-poll-card">
-            <h2 class="listener-title">Listener Poll</h2>
-            <p class="listener-subtitle">Share your preference and help us shape future programmes on COL Radio.</p>
+<section class="contact-section">
+        <div class="container-contactsection">
             
-            <h3 class="listener-question">What type of content do you enjoy listening to the most on COL Radio?</h3>
-            
-            <form id="listenerPoll" class="listener-form">
-                <label class="listener-poll-option">
-                    <input type="radio" name="content" value="academic">
-                    <span class="listener-text">Academic programmes</span>
-                </label>
-                
-                <label class="listener-poll-option listener-selected">
-                    <input type="radio" name="content" value="discussions" checked>
-                    <span class="listener-text">Student discussions</span>
-                </label>
-                
-                <label class="listener-poll-option">
-                    <input type="radio" name="content" value="podcasts">
-                    <span class="listener-text">Informative podcasts</span>
-                </label>
-                
-                <label class="listener-poll-option">
-                    <input type="radio" name="content" value="career">
-                    <span class="listener-text">Career guidance sessions</span>
-                </label>
-
-                <button type="submit" class="listener-submit-btn">Submit Vote</button>
-            </form>
-            <div id="pollSuccess" class="listener-success-msg" style="display: none;">
-                Thank You for your time! Your response has been submitted successfully!
+            <div class="card-contactsection">
+                <h2>FEEDBACK & QUERIES</h2>
+                <p>Share your feedback, suggestions, or questions about COL Radio through COL Gram.</p>
+                <div class="footer-action">
+                    <a href="#" class="submit-link">Submit on COL Gram</a>
+                    <a href="#" class="arrow-btn"><i class="fas fa-arrow-right"></i></a>
+                </div>
             </div>
-        </div>
-    </div>
-</section>
 
+            <div class="card-contactsection">
+                <h2>CONNECT WITH US</h2>
+                <p>Stay updated with new podcasts and announcements by following COL Radio on our official social media.</p>
+                <div class="social-icons-contactsection">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#"><i class="fab fa-x-twitter"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+<section class="supporters-section">
+  <div class="container-collaborator">
+    <h2 class="supporters-title">Our Members, Corporate & Foundation Supporters</h2>
+    <div class="logo-wrapper">
+      <img src="assets/images/sol2.png" alt="University of Delhi - School of Open Learning Logo" class="supporters-logo">
+    </div>
+  </div>
+</section>
 
 
 <footer class="main-footer">
   <div class="footer-container">
     <div class="footer-col">
       <ul class="footer-links">
-        <li><a href="#">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="aboutus.html">About</a></li>
         <li><a href="#">Foreign Language Courses</a></li>
         <li><a href="#">Job Ready Skill Courses</a></li>
@@ -600,9 +504,143 @@
     <p>&copy; COL, All Rights Reserved. | Designed by OLDC</p>
   </div>
 </footer>
-<script src="script.js"></script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+    const cards = document.querySelectorAll('.administration-podcast-card');
+    const prevBtn = document.querySelector('.administration-prev');
+    const nextBtn = document.querySelector('.administration-next');
+    
+    let currentIndex = 0;
+    const cardsPerPage = 4;
+
+    function updateCards() {
+        // 1. Loop through all cards and show/hide based on index
+        cards.forEach((card, index) => {
+            if (index >= currentIndex && index < currentIndex + cardsPerPage) {
+                card.classList.add('is-visible');
+            } else {
+                card.classList.remove('is-visible');
+            }
+        });
+
+        // 2. Disable Prev button if at the start
+        prevBtn.disabled = (currentIndex === 0);
+        
+        // 3. Disable Next button if no more cards to show
+        nextBtn.disabled = (currentIndex + cardsPerPage >= cards.length);
+
+        // 4. Toggle the 'administration-active' class for visual feedback
+        if (nextBtn.disabled) {
+            nextBtn.classList.remove('administration-active');
+        } else {
+            nextBtn.classList.add('administration-active');
+        }
+
+        if (prevBtn.disabled) {
+            prevBtn.classList.remove('administration-active');
+        } else {
+            // Optional: if you want the prev button to turn red when active
+            prevBtn.classList.add('administration-active'); 
+        }
+    }
+
+    nextBtn.addEventListener('click', () => {
+        if (currentIndex + cardsPerPage < cards.length) {
+            currentIndex += cardsPerPage;
+            updateCards();
+        }
+    });
+
+    prevBtn.addEventListener('click', () => {
+        if (currentIndex - cardsPerPage >= 0) {
+            currentIndex -= cardsPerPage;
+            updateCards();
+        }
+    });
+
+    // Initialize the view
+    updateCards();
+});
+</script>
+
+<script>
+    const speedToggle = document.getElementById('speed-toggle');
+    const speedText = document.getElementById('speed-text');
+ 
+    let currentSpeed = 1.0;
+    speedToggle.addEventListener('click', () => {
+        currentSpeed += 0.5;
+
+        if (currentSpeed > 2.5) {
+            currentSpeed = 0.5;
+        }
+        speedText.innerText = currentSpeed + "X";
+    });
+</script>
+
+<script>
+  const volIcon = document.getElementById('vol-icon');
+  const volBtn = document.getElementById('vol-btn');
+  volBtn.addEventListener('click', () => {
+    if (volIcon.classList.contains('fa-volume-up')) {
+    volIcon.classList.remove('fa-volume-up');
+    volIcon.classList.add('fa-volume-mute');
+    } else{ 
+      volIcon.classList.remove('fa-volume-mute');
+    volIcon.classList.add('fa-volume-up');
+    }
+  });
+</script>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const btn = document.querySelector('.play-pause-btn');
+    const icon = btn.querySelector('i');
+    btn.addEventListener('click', function() {
+        if (icon.classList.contains('fa-play')) {
+            icon.classList.remove('fa-play');
+            icon.classList.add('fa-pause');
+        } else {
+            icon.classList.remove('fa-pause');
+            icon.classList.add('fa-play');
+        }
+    });
+    btn.addEventListener('dblclick', function(e) {
+        e.preventDefault(); 
+        icon.classList.remove('fa-pause');
+        icon.classList.add('fa-play');
+    });
+});
+</script>
+<script>
+    const seekBar = document.querySelector('.seek-bar input[type="range"]');
+    function updateProgress() {
+        const value = seekBar.value;
+        const min = seekBar.min || 0;
+        const max = seekBar.max || 100;
+        const percent = ((value - min) / (max - min)) * 100;
+        seekBar.style.backgroundSize = percent + '% 100%';
+    }
+
+    seekBar.addEventListener('input', updateProgress);
+    updateProgress();
+</script>
+<script>
+    function updateSliderBackground(el) {
+        const min = el.min || 0;
+        const max = el.max || 100;
+        const val = el.value;
+        const percentage = (val - min) / (max - min) * 100;
+        el.style.backgroundSize = percentage + '% 100%';
+    }
+    const allSliders = document.querySelectorAll('input[type="range"]');
+    allSliders.forEach(slider => {
+        slider.addEventListener('input', () => updateSliderBackground(slider));
+        updateSliderBackground(slider);
+    });
+</script>
+<script src="assets/script.js"></script>
 </body>
 
 </html>
-
-
